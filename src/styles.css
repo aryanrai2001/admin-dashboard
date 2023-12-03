@@ -1,0 +1,36 @@
+.header-logo:hover {
+  -webkit-filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px -5px 10px rgba(192, 64, 43, 0.75));
+}
+
+.svg-icon-primary {
+  filter: invert(33%) sepia(84%) saturate(4542%) hue-rotate(202deg)
+    brightness(107%) contrast(102%);
+}
+
+.svg-icon-white {
+  filter: invert(99%) sepia(1%) saturate(493%) hue-rotate(110deg)
+    brightness(118%) contrast(100%);
+}
+
+.action-button {
+  display: inline;
+  width: 1.75rem;
+  height: 1.75rem;
+  padding: 0rem;
+  margin: 0rem 0.5rem;
+  text-align: center;
+}
+
+.action-image {
+  max-width: 1rem;
+  max-height: 1rem;
+  margin: 0rem;
+  transform: translateY(-0.1rem);
+}
+
+#noRecord {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 100;
+}
