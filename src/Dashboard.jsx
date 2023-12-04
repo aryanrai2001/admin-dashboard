@@ -73,9 +73,9 @@ function Dashboard({ data, setData }) {
     } else {
       let newData = data.filter((row) => {
         return (
-          row.name.toLowerCase().includes(search) ||
-          row.email.toLowerCase().includes(search) ||
-          row.role.toLowerCase().includes(search)
+          row.name.toLowerCase().includes(search.toLowerCase()) ||
+          row.email.toLowerCase().includes(search.toLowerCase()) ||
+          row.role.toLowerCase().includes(search.toLowerCase())
         );
       });
       setFilteredData(newData);
